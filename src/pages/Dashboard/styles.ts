@@ -22,6 +22,7 @@ export const Form = styled.form`
     border: 0px;
     border-radius: 5px 0 0 5px;
     color: #3a3a3a;
+    font-size: 16px;
 
     &::placeholder {
       color: #a8a8b3;
@@ -35,6 +36,7 @@ export const Form = styled.form`
     border-radius: 0 5px 5px 0;
     border: 0;
     color: #fff;
+    font-size: 16px;
     font-weight: bold;
     transition: background 0.2s;
 
@@ -76,6 +78,7 @@ export const Repositories = styled.div`
     }
 
     div {
+      flex: 1;
       margin-left: 16px;
 
       strong {
